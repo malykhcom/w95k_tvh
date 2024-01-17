@@ -1,0 +1,9 @@
+system os2v2 dll initinstance terminstance
+option description 'T&V HappyPlayer control plug-in v0.1 for Win95Key. (c) Anton Malykh, 2002.'
+option stack=64k
+option manyautodata
+option caseexact
+option eliminate
+export TVHMute
+file w95k_tvh.obj
+
